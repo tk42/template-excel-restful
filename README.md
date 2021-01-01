@@ -9,11 +9,13 @@ In this Excel, REST-API is only executed from VBA via HTTP, the actual calculati
 Also, if you are using Office 365 or later, you can use JavaScript in addition to VBA, so you can display the results in real time by Websocket communication.
 
 ## Policy
-Build Flask, a micro web framework written in Python, and send and receive messages converted to JSON format by VBA.
+Build FastAPI or Flask, a micro web framework written in Python, and send and receive messages converted to JSON format by VBA.
 Supported not only REST-API but also WebSocket
 
 ## Requiements
 ### Python
+ - FastAPI
+ https://fastapi.tiangolo.com/ja/
  - flask-restx
  https://flask-restx.readthedocs.io/en/latest/
  - websockets
